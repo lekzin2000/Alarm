@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Orbitron;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background:
+        linear-gradient(45deg, #007bff, #27ae60);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+div {
+    padding: 10px 0px;
+}
+
+.clock {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 35%;
+}
+
+.card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+h1 {
+    font-size: 2rem;
+    color: green;
+}
+
+.time {
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #333;
+}
+
+input[type="time"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 200px;
+}
+
+#reminder {
+    padding: 15px;
+}
+
+#setBtn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+#setBtn:hover {
+    background-color: #0056b3;
+}
+
+.alarms {
+    margin-top: 20px;
+    text-align: left;
+    color: #333;
+}
+
+/* media query */
+@media only screen and (max-width: 785px) {
+/* body {
+background-color: lightblue;
+} */
+.clock {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 80%;
+}
+
+}
